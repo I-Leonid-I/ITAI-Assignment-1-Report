@@ -1,0 +1,39 @@
+seed: -1
+tests: 1000
+
+[astar_v1]
+total_runs: 1000
+successes: 847
+failures: 153
+runtime_mean_all: 0.0034580046310010177
+runtime_median_all: 0.003239890499997955
+runtime_mode_all: 0.0013515409999627082
+runtime_std_all: 0.0014853309738217726
+
+[astar_v2]
+total_runs: 1000
+successes: 990
+failures: 10
+runtime_mean_all: 0.005150287734999267
+runtime_median_all: 0.004282842000009168
+runtime_mode_all: 0.0078108970000130284
+runtime_std_all: 0.004202992054448941
+
+[backtracking_v1]
+total_runs: 1000
+successes: 580
+failures: 420
+runtime_mean_all: 0.15370763598800335
+runtime_median_all: 0.003578416999971523
+runtime_mode_all: 0.0057862799999952585
+runtime_std_all: 1.4921185191112527
+
+[backtracking_v2]
+total_runs: 1000
+successes: 621
+failures: 379
+runtime_mean_all: 0.8596590405399991
+runtime_median_all: 0.004499774000009893
+runtime_mode_all: 0.003777841999976772
+runtime_std_all: 3.476631638771486
+
